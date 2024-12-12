@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: data-set-uxram
+  project: hard-hat-sample-nixaa
+  version: 2
+  license: Public Domain
+  url: https://app.roboflow.com/data-set-uxram/hard-hat-sample-nixaa/2
